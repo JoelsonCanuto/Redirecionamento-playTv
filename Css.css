@@ -18,6 +18,13 @@ div{
     box-shadow: 5px 5px 5px black;
 }
 
+@media screen and (max-width 768px){
+    div{
+        width: 80%;
+        height: 550px;
+    }   
+}
+
 h1, h4, h2{
     color: white;
     margin: 0px;
