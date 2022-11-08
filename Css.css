@@ -3,4 +3,50 @@ body{
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(116,116,116,1) 100%);
 }
 
+div{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    height: 550px;
+
+    border: 1px solid gray;
+    background-color: #292929;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+h1, h4, h2{
+    color: white;
+    margin: 0px;
+    font-family: arial;
+    font-weight: initial;
+}
+
+h2{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 15pt;
+    margin-top: 30px;
+}
+
+img{
+    margin: 20px 0px 0px 0px;
+    width: 40%;
+}
+
+h4{
+    font-size: 10pt;
+    margin-top: 10px;
+}
+
+#redirecionar{
+    width: 50%;
+}
+
 
