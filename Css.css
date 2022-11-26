@@ -3,28 +3,24 @@ body{
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(116,116,116,1) 100%);
 }
 
-div{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
-    width: 400px;
-    height: 550px;
+    margin-top: 30px;
+}
 
+.box{
     border: 1px solid gray;
     background-color: #292929;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
+    width: 80%;
+    max-width: 350px;
+    height: 500px;
 }
-
-@media screen and (max-width 768px){
-    div{
-        width: 70%;
-        height: 550px;
-    }   
-}
-
 h1, h4, h2{
     color: white;
     margin: 0px;
@@ -49,7 +45,7 @@ img{
 
 h4{
     font-size: 10pt;
-    margin-top: 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 #redirecionar{
